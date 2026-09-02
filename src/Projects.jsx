@@ -2,6 +2,26 @@ export default function Projects() {
   const projects = [
     {
       number: "01",
+      title: "JobTrack -- Job Application Tracker",
+      description:
+        "A full-stack job application tracking platform for managing applications across different stages with search, filtering, notes, status history, interview scheduling, and automated reminders. Implements JWT authentication, RBAC, OTP password recovery, validation, background job processing, and reliable event handling.",
+      tech: [
+        "React",
+        "Node.js",
+        "Express",
+        "PostgreSQL",
+        "Redis",
+        "BullMQ",
+        "JWT",
+        "RBAC",
+        "Zod",
+        "Docker",
+      ],
+      link: "https://github.com/amit234rai/Jobtrack-Full-stack-project",
+      label: "View Repository",
+    },
+    {
+      number: "02",
       title: "Weather Web Application",
       description:
         "A responsive frontend application that fetches live weather information using the OpenWeather REST API. Features dynamic weather metrics, contextual themes, icons, input validation, and error handling.",
@@ -10,7 +30,7 @@ export default function Projects() {
       label: "Live Demo",
     },
     {
-      number: "02",
+      number: "03",
       title: "Pharmacy Management System",
       description:
         "A modular C++ console application built using object-oriented programming for inventory tracking, medicine management, supplier data, transaction processing, billing, and persistent binary file storage.",
@@ -19,7 +39,7 @@ export default function Projects() {
       label: "View Repository",
     },
     {
-      number: "03",
+      number: "04",
       title: "Project Management System",
       description:
         "A RESTful backend for a multi-tenant project management platform with role-based access control, JWT authentication, refresh tokens, email verification, password reset, CRUD APIs, notes, subtasks, and file attachments.",
